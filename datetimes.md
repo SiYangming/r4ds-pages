@@ -61,7 +61,7 @@ To get the current date or date-time you can use `today()` or `now()`:
 today()
 #> [1] "2021-09-03"
 now()
-#> [1] "2021-09-03 01:17:59 CST"
+#> [1] "2021-09-03 02:36:49 CST"
 ```
 
 Otherwise, there are three ways you're likely to create a date/time:

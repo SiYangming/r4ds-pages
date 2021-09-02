@@ -45,9 +45,9 @@ microbenchmark::microbenchmark(
   times = 20
 )
 #> Unit: microseconds
-#>   expr   min     lq    mean median     uq    max neval
-#>  fixed 167.4 182.45 315.345 211.25 269.10 1979.7    20
-#>  regex 435.6 495.70 616.840 621.55 670.45  845.5    20
+#>   expr   min     lq    mean  median     uq    max neval
+#>  fixed 194.8 263.70 448.350  348.65  440.8 2459.5    20
+#>  regex 527.8 761.45 946.625 1013.35 1106.4 1280.4    20
 ```
 
 As you saw with `str_split()` you can use `boundary()` to match boundaries.
